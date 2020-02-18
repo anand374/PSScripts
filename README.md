@@ -21,3 +21,6 @@ Contains many super useful powershell scripts created by me to aid in work
       <p>
       Will add additional Azure Network Components to search through and will also provide option to search specific Subscriptions in near future.
  </ul>
+      <h2> Issues </h2>
+      <p>Since the script is not digitally signed, you will need to execute this command in Powershell in order to bypass digital sign verification:<br>
+      <b>Set-ExecutionPolicy Unrestricted</b>
