@@ -11,7 +11,8 @@ Contains many super useful powershell scripts created by me to aid in work
       <li><b>subID (optional) - </b>Provide the Subscription ID if you want the search to be limited to a particular Subscription.</li>
       <li><b>tenantID (optional) - </b>Provide the AAD tenant ID for the tenant who has access to the subscriptions you want to search.</li>
       <li><b>IP Address - </b>After the script is run, you need to specify the IP address.</li>
-      <p><br>
+      </ol>
+      <p>
       Currently, the script supports searching the following Azure Components -
       <ol type="a">
       <li>Load Balancer</li>
