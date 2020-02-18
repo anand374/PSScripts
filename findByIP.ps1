@@ -1,6 +1,6 @@
 ﻿param(
 
-    [string]$tenantId="",
+    [string]$tenantID="",
     [string]$subID=""
 
     ) 
@@ -13,12 +13,12 @@ if (Get-Module -ListAvailable -Name AzureRM) {
 
 Import-Module AzureRM
 
-if ($tenantId -eq "") {
+if ($tenantID -eq "") {
     login-azurermaccount 
     $subs = Get-AzureRmSubscription 
 } else {
-    login-azurermaccount -tenantid $tenantId 
-    $subs = Get-AzureRmSubscription -TenantId $tenantId 
+    login-azurermaccount -tenantid $tenantID 
+    $subs = Get-AzureRmSubscription -TenantId $tenantID
 }
 
 
