@@ -20,7 +20,7 @@ Contains many super useful powershell scripts created by me to aid in work
       <li>Virtual Machines (nic)</li>
       </ol>
       <p>
-      Will add additional Azure Network Components to search through in near future.
+      Will add additional Azure Network Components to search through in near future. <br>Also, will add option to select what type of Azure Resource you want to search specifically, basically giving you more control over the search.
  </ul>
       <h2> Issues </h2>
       <p>
