@@ -23,8 +23,13 @@ Contains many super useful powershell scripts created by me to aid in work
       Will add additional Azure Network Components to search through in near future.
  </ul>
       <h2> Issues </h2>
-      <p>Since the script is not digitally signed, you will need to execute this command in Powershell (as admin) in order to bypass digital sign verification:<br>
-      <b>Set-ExecutionPolicy Unrestricted</b>
+      <p>
+      <ol>
+      <li>Since the script is not digitally signed, you will need to execute this command in Powershell (as admin) in order to bypass digital sign verification:<br>
+            <b>Set-ExecutionPolicy Unrestricted</b></li>
+      <li>Your version of AzureRM module might be old, if so you might get this error: <br><i>"Parameter set cannot be resolved using the specified named parameters."</i><br>
+            To resolve this error, you need to run this command in powershell as admin:<br><b>Update-Module -Name AzureRM</b></li>
+            </ol>
       <h2>Changelog</h2>
       <ol>
       <li>Added option to search a particular Subscription</li>
